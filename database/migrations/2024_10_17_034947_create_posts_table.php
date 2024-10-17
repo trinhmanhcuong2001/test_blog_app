@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->text('content');
-            $table->date('published_at')->nullable();
+            $table->datetime('published_at')->nullable();
         });
     }
 
